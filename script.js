@@ -1,3 +1,4 @@
+
 let shop = document.getElementById("shop");
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
@@ -76,3 +77,4 @@ let calculation = () => {
 };
 
 calculation();
+
